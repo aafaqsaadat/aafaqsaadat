@@ -1,0 +1,30 @@
+*body{
+    padding: auto;
+}
+.ferrari{
+    padding: 3%;
+}
+.audi{
+    display: inline;
+    padding-left: 25%;
+    margin-top: 10%;
+}
+#mercedes{
+    padding-left: 25%;
+    margin-top: 10%;
+
+}
+button{
+    margin-left: 50%;
+    height: 40px;
+    width: 100px;
+    border-radius: 40px;
+    background-color: black;
+    color: aliceblue;
+    margin-top: 50px;
+    text-align: center;
+}
+img{
+    border: solid 2px black;
+    border-radius: 10px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagination Links</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="pagination">
+        <a href="page1.html" class="page-number">1</a>
+        <a href="page2.html" class="page-number">2</a>
+        <a href="page3.html" class="page-number">3</a>
+        <a href="page4.html" class="page-number">4</a>
+        <a href="page5.html" class="page-number">5</a>
+    </div>
+
+</body>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center; /* Center the pagination */
+    margin: 20px 0;
+}
+
+.page-number {
+    display: inline-block;
+    margin: 0 10px; /* Space between page numbers */
+    padding: 10px 15px;
+    background-color: #007bff; /* Button color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s;
+}
+
+.page-number:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+</style>
+</html>
